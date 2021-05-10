@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  description: MyText
+  completed: false
+  completed_at: 2021-05-04 18:57:44
+  deadline: 2021-05-04 18:57:44
+  todo_list: one
+
+two:
+  description: MyText
+  completed: false
+  completed_at: 2021-05-04 18:57:44
+  deadline: 2021-05-04 18:57:44
+  todo_list: two
