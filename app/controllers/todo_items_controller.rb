@@ -44,7 +44,8 @@ class TodoItemsController < ApplicationController
   def destroy
     @todo_item.destroy
 
-    redirect_to todo_list_todo_items_url(@todo_list)
+
+    redirect_to (@todo_item.todo_list)
   end
 
   private

@@ -54,12 +54,14 @@
               <%= f.submit 'UnComplete',class:'btn btn-dark' %>
             <% end %>
           </div>
+          <%= link_to 'Destroy', [@todo_list, todo_item], method: :delete, data: { confirm: 'Are you sure?' } %>
         </li>
       <% end %>
     <% end %>
   </ul>
 </div>
 
+<%= link_to 'Back', todo_lists_path %>
 
 
 

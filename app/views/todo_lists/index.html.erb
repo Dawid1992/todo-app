@@ -6,7 +6,9 @@
 
 <ul class="list-group">
   <% @todo_lists.each do |todo_list| %>
-    <li class="list-group-item"><%= link_to todo_list.title, todo_list %></li>
+    <li class="list-group-item">
+      <%= link_to todo_list.title, todo_list %>
+    </li>
   <% end %>
 </ul>
 
